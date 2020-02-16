@@ -1,0 +1,64 @@
+/* ***********************************
+ *  default css comes first and is designed for mobile
+ *  i.e. this is mobile first
+ *  ***********************************
+ */
+ 
+hr {
+    width: 100%;
+}
+
+.main-title{
+    margin: 50px auto 20px auto;
+    text-align:center;
+}
+
+#btn-div{
+    margin-top: 20px;
+    text-align:center;
+}
+
+#press-me-btn{
+    text-align:center;
+}
+
+#html-css-image-div{
+    width: 100%;
+    margin: auto auto;
+}
+
+#html-css-image{
+    width: 100%;
+}
+
+/* **************************************
+ * Media Queries
+ * ***************************************
+ */
+
+/* this is for tablet, no less than 480px, no greater than 1024px */
+@media (min-width:480px) and (max-width:1024px) {
+    #html-css-image-div{
+        width: 50%;
+    }
+
+    hr {
+        width: 80%;
+    }
+
+}
+
+/*this is for desktop, greater than 1024*/
+@media (min-width:1024px) {
+
+    hr {
+        width: 60%;
+    }
+    
+    #html-css-image-div{
+        width: 25%;
+    }
+
+}
+
+
