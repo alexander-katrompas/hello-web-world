@@ -13,7 +13,7 @@ hr {
     text-align:center;
 }
 
-#btn-div{
+.btn-div{
     margin-top: 20px;
     text-align:center;
 }
@@ -47,6 +47,14 @@ hr {
     display: none;
 }
 
+#input-div input{
+    width:100%;
+}
+
+input {
+    margin-bottom: 10px;
+}
+
 /* **************************************
  * Media Queries
  * ***************************************
@@ -66,7 +74,12 @@ hr {
         padding-left: 30px;
     }
 
+    #input-div{
+        width:70%;
+        margin: 30px auto;
+    }
 }
+
 
 /*this is for desktop, greater than 1024*/
 @media (min-width:1024px) {
@@ -83,6 +96,10 @@ hr {
         padding-left: 10px;
     }
 
+    #input-div{
+        width:50%;
+        margin: 30px auto;
+    }
 }
 
 
