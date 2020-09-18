@@ -3,7 +3,7 @@
  *  i.e. this is mobile first
  *  ***********************************
  */
- 
+
 hr {
     width: 100%;
 }
@@ -31,6 +31,14 @@ hr {
     width: 100%;
 }
 
+.text-large{
+    font-size: 120%;
+}
+
+.menu-padding p{
+    padding: 0px 0px 0px 50px;
+}
+
 /* **************************************
  * Media Queries
  * ***************************************
@@ -46,6 +54,10 @@ hr {
         width: 80%;
     }
 
+    .menu-padding p{
+        padding-left: 30px;
+    }
+
 }
 
 /*this is for desktop, greater than 1024*/
@@ -54,9 +66,13 @@ hr {
     hr {
         width: 60%;
     }
-    
+
     #html-css-image-div{
         width: 25%;
+    }
+
+    .menu-padding p{
+        padding-left: 10px;
     }
 
 }
